@@ -2,10 +2,12 @@
 // @name         泉州信息工程学院教务系统MD化
 // @namespace
 // @version      1.0
-// @description  泉州信息工程学院教务系统MD化，基于mdui框架,修改自https://greasyfork.org/zh-CN/scripts/408958-hnust-%E6%96%B0%E7%89%88%E6%95%99%E5%8A%A1-material-design-%E5%8C%96
+// @description  泉州信息工程学院教务系统MD化，基于mdui框架
 // @author       Steve5wutongyu6
 // @match        http://jwgl.qziedu.cn/*
 // @match        http://jwgl.qziedu.cn/jsxsd/*
+// @exclude      http://jwgl.qziedu.cn/jsxsd/xsxk/*
+// @exclude      http://jwgl.qziedu.cn/jsxsd/xsxkjg/xsxkkb/*
 // @grant        none
 // ==/UserScript==
 
