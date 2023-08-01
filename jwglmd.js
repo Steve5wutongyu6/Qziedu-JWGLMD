@@ -7,7 +7,9 @@
 // @match        http://jwgl.qziedu.cn/*
 // @match        http://jwgl.qziedu.cn/jsxsd/*
 // @exclude      http://jwgl.qziedu.cn/jsxsd/xsxk/*
-// @exclude      http://jwgl.qziedu.cn/jsxsd/xsxkjg/xsxkkb/*
+// @exclude      http://jwgl.qziedu.cn/jsxsd/xsxkjg/*
+// @exclude      http://jwgl.qziedu.cn/jsxsd/xsxkkc/comeInBxxk
+// @exclude      http://jwgl.qziedu.cn/jsxsd/xsxkkc/comeInXxxk
 // @grant        none
 // ==/UserScript==
 
