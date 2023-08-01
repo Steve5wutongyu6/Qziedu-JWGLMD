@@ -2,10 +2,14 @@
 // @name         泉州信息工程学院教务系统MD化
 // @namespace
 // @version      1.0
-// @description  泉州信息工程学院教务系统MD化，基于mdui框架,修改自https://greasyfork.org/zh-CN/scripts/408958-hnust-%E6%96%B0%E7%89%88%E6%95%99%E5%8A%A1-material-design-%E5%8C%96
+// @description  泉州信息工程学院教务系统MD化，基于mdui框架
 // @author       Steve5wutongyu6
 // @match        http://jwgl.qziedu.cn/*
 // @match        http://jwgl.qziedu.cn/jsxsd/*
+// @exclude      http://jwgl.qziedu.cn/jsxsd/xsxk/*
+// @exclude      http://jwgl.qziedu.cn/jsxsd/xsxkjg/*
+// @exclude      http://jwgl.qziedu.cn/jsxsd/xsxkkc/comeInBxxk
+// @exclude      http://jwgl.qziedu.cn/jsxsd/xsxkkc/comeInXxxk
 // @grant        none
 // ==/UserScript==
 
@@ -28,88 +32,10 @@
   });
   //全局
   $("body").append(`
-  <script src='https://cdn.bootcdn.net/ajax/libs/mdui/1.0.0/js/mdui.min.js'></script>
+  <script src='https://cdn.bootcdn.net/ajax/libs/mdui/1.0.2/js/mdui.min.js'></script>
   <style>
-    @import url('https://cdn.bootcdn.net/ajax/libs/mdui/1.0.0/css/mdui.min.css');
-    .edu-bg-balck .lsm-expand-btn {
-      background-color: #37474f!important;
-    }
-    .submenu a:hover, .submenu a.active {
-      background: linear-gradient(90deg,#90a0aa 0%,rgba(59,130,255,0) 100%)!important;
-      border-left-color: #3e5967!important;
-    }
-    .submenu a {
-      background-color: #0b1317!important;
-    }
-    {
-      background-color: #0b1317!important;
-    }
-    .open .submenu li div {
-      background-color: #102027!important;
-    }
-    .accordion .link {
-      height: 50px!important;
-      line-height: 20px!important;
-    }
-    .navBar-right>div {
-      background-color: transparent!important;
-    }
-    html {
-      background-color: none!important;
-    }
-    .Nsb_r_list_thb {
-      width: auto!important;
-    }
-    .mdui-tab {
-      margin-bottom: 20px!important;
-    }
-    select {
-      z-index: 999!important;
-    }
-    .breadcrumbs a, .icon-close01 {
-      color: rgba(255,255,255,.5)!important;
-    }
-    .breadcrumbs .current, .current .icon-close01 {
-      color: #eceff1!important;
-    }
-    .breadcrumbs a.current {
-      background: none!important;
-    }
-    .edu-badge i {
-      font-size: 24px!important;
-      color: #fff!important;
-    }
-    .personal-center {
-      margin: 0!important;
-    }
-    .personal-left-item {
-      margin-left: 24px!important;
-      width: 40%!important;
-      height: 60%!important;
-    }
-    .personal-right-item {
-      width: 40%!important;
-      height: 60%!important;
-    }
-    .accordion .link {
-      padding: 18px 15px 15px 60px!important;
-    }
-    .edu-logo {
-      margin-top: 10px!important;
-      display: block!important;
-      padding: 8px 0 8px 15px!important;
-    }
-    .edu-logo div {
-      height: 60px!important;
-      width: 170px!important;
-      background-size: 100%!important;
-    }
-    .edu-header {
-      height: auto!important;
-    }
-    .edu-sideMenu {
-      margin-top: 10px!important;
-    }
+    @import url('https://cdn.bootcdn.net/ajax/libs/mdui/1.0.2/css/mdui.min.css');
+    @import url('https://www.mikolo.top/qziedumd/style.css');
   </style>
 `);
   $("body").addClass(colorBackground); //我的桌面
