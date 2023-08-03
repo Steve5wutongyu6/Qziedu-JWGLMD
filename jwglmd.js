@@ -35,7 +35,8 @@
   <script src='https://cdn.bootcdn.net/ajax/libs/mdui/1.0.2/js/mdui.min.js'></script>
   <style>
     @import url('https://cdn.bootcdn.net/ajax/libs/mdui/1.0.2/css/mdui.min.css');
-    @import url('https://www.mikolo.top/qziedumd/style.css');
+    /*@import url('https://www.mikolo.top/qziedumd/style.css');//样式文件,使用阿里云CDN加速,如果公共CDN失效就用这个*/
+    @import url('https://raw.gitmirror.com/Steve5wutongyu6/Qziedu-JWGLMD/main/style.css');
   </style>
 `);
   $("body").addClass(colorBackground); //我的桌面
